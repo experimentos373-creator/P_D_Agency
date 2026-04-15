@@ -1,0 +1,115 @@
+{
+  "theme": "dark",
+  "archetype": "7 (Electric & Neon - Brutalist/Web3 style per user constraints)",
+  "language": "pt",
+  "colors": {
+    "background": "#0e0e0e",
+    "primary": "#81ecff",
+    "secondary": "#bc87fe",
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#a1a1aa",
+      "muted": "#71717a"
+    },
+    "surface": {
+      "card": "#121212",
+      "hover": "#1a1a1a",
+      "border": "#27272a"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headline": "'Space Grotesk', sans-serif",
+      "body": "'Manrope', sans-serif"
+    },
+    "font_imports": [
+      "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+    ],
+    "headings": {
+      "h1": "text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter leading-none",
+      "h2": "text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold tracking-tight"
+    }
+  },
+  "icons": {
+    "library": "Material Symbols Outlined",
+    "import": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "generous",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-24 sm:py-32",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6",
+    "card_padding": "p-8 md:p-10"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "bg-black/60 backdrop-blur-xl border border-white/5",
+    "hover_effects": "group-hover:-translate-y-2 transition-transform duration-300 ease-out",
+    "glow_effects": "shadow-[0_0_30px_rgba(129,236,255,0.15)] group-hover:shadow-[0_0_50px_rgba(188,135,254,0.3)]",
+    "buttons": "relative overflow-hidden bg-primary text-black font-semibold uppercase tracking-widest px-8 py-4 hover:bg-secondary transition-colors duration-300"
+  },
+  "components_instructions": [
+    {
+      "name": "Header",
+      "instructions": "Sticky at top, z-50. Glassmorphism effect. Contains Logo ('P&D AGENCY'), Links (Serviços, Portfólio, Planos), and 'Contato' button that opens the Contact Modal."
+    },
+    {
+      "name": "Hero Section",
+      "instructions": "Large H1 with Space Grotesk. Animated CTA button. Background should be #0e0e0e with a subtle radial gradient of #81ecff and #bc87fe in the corners."
+    },
+    {
+      "name": "Services Section",
+      "instructions": "Grid of dark cards (bg-[#121212] border border-zinc-800). Use Material Symbols Outlined. Hover states should include a subtle purple or cyan glow and slight -translate-y lift."
+    },
+    {
+      "name": "Portfolio Bento Grid",
+      "instructions": "Assymmetrical bento grid. Use the provided Unsplash images as object-cover backgrounds with a black/60 overlay. Text overlays on hover or fixed at the bottom."
+    },
+    {
+      "name": "Packages Section",
+      "instructions": "2-3 tier cards. CRITICAL: NO PRICES SHOWN. The CTA button in all packages must be exactly 'SOLICITAR ORÇAMENTO' and trigger the contact form modal."
+    },
+    {
+      "name": "Contact Form Modal",
+      "instructions": "Use Shadcn Dialog. Must contain: Name, Email, Message, and a Select dropdown for 'Interest/Package'. Styled in dark mode."
+    },
+    {
+      "name": "Footer",
+      "instructions": "Minimal dark footer. Agency branding, copyright, social links."
+    }
+  ],
+  "media_urls": {
+    "portfolio_item_1": {
+      "url": "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbW9kZXJuJTIwd2Vic2l0ZSUyMFVJJTIwbW9ja3VwfGVufDB8fHx8MTc3NjI1NTgxMnww&ixlib=rb-4.1.0&q=85",
+      "description": "Modern web UI mockup for bento grid"
+    },
+    "portfolio_item_2": {
+      "url": "https://images.unsplash.com/photo-1720962158883-b0f2021fb51e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwyfHxkYXJrJTIwbW9kZXJuJTIwd2Vic2l0ZSUyMFVJJTIwbW9ja3VwfGVufDB8fHx8MTc3NjI1NTgxMnww&ixlib=rb-4.1.0&q=85",
+      "description": "Mobile app UI mockup for bento grid"
+    },
+    "portfolio_item_3": {
+      "url": "https://images.unsplash.com/photo-1770968476272-69e3e4af5df7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxjeWJlcnB1bmslMjBhYnN0cmFjdCUyMDNEJTIwZGFya3xlbnwwfHx8fDE3NzYyNTU4MTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Abstract purple dots texture for bento grid or background accents"
+    },
+    "abstract_background": {
+      "url": "https://images.unsplash.com/photo-1762279388956-1c098163a2a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxjeWJlcnB1bmslMjBhYnN0cmFjdCUyMDNEJTIwZGFya3xlbnwwfHx8fDE3NzYyNTU4MTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Neon abstract lines for secondary section backgrounds"
+    }
+  },
+  "testing_attributes": {
+    "hero_cta": "data-testid=\"hero-cta-button\"",
+    "contact_form": "data-testid=\"contact-form\"",
+    "package_cta": "data-testid=\"package-solicitar-button\"",
+    "contact_modal_trigger": "data-testid=\"nav-contact-trigger\""
+  },
+  "instructions_to_main_agent": [
+    "Ensure global background is set strictly to #0e0e0e.",
+    "Inject the Google Fonts for Space Grotesk and Manrope.",
+    "Inject the Google Fonts Material Symbols Outlined stylesheet via CDN in index.html.",
+    "Do NOT use 'Inter' for headings. Only Space Grotesk for H1-H6, Manrope for paragraphs.",
+    "Do not render any numerical prices in the Packages section. Render 'SOLICITAR ORÇAMENTO' on all package CTAs.",
+    "Ensure Shadcn UI components (Dialog, Input, Select, Textarea) are customized to match the dark aesthetic (#121212 background, #27272a borders, focus rings using #81ecff).",
+    "Ensure mobile-first responsive design, with the grid adjusting from 1 column on mobile to up to 12 columns for the bento layout on desktop."
+  ]
+}
